@@ -30,17 +30,21 @@ Controlador L298N:
 ```
 
 ## Conexiones Eléctricas
+```
 Conectar motores al L298N:
 Motor izquierdo a OUT1 y OUT2
 Motor derecho a OUT3 y OUT4
+```
 
 ## Conectar L298N a Arduino:
+```
 IN1 → Pin 9
 IN2 → Pin 8
 IN3 → Pin 7
 IN4 → Pin 6
-
+```
 ## Comandos de movimientos (deben ser definidos por los creadores del apk)
+
 y → Adelante
 s → Atrás
 a → Izquierda
