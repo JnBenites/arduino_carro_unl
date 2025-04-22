@@ -44,11 +44,12 @@ IN3 → Pin 7
 IN4 → Pin 6
 ```
 ## Comandos de movimientos (deben ser definidos por los creadores del apk)
-
+```
 y → Adelante
 s → Atrás
 a → Izquierda
 d → Derecha
+```
 
 # Diagrama de Flujo
 Inicio → Esperar comando → Ejecutar movimiento → Temporizar 1s → Detener motores → Repetir
