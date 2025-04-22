@@ -52,4 +52,6 @@ d → Derecha
 ```
 
 # Diagrama de Flujo
+```
 Inicio → Esperar comando → Ejecutar movimiento → Temporizar 1s → Detener motores → Repetir
+```
