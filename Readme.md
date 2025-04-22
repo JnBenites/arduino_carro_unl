@@ -2,6 +2,8 @@
 Control de dos motores DC mediante comandos Bluetooth usando un módulo HC-05/06. El robot puede moverse adelante, atrás y girar en ambas direcciones durante 1 segundo por comando.
 
 # Diagrama de Conexiones
+Puente H 
+
 Motor Izquierdo:
 - Terminal 1 → IN1 (Pin 9)
 - Terminal 2 → IN2 (Pin 8)
@@ -38,11 +40,6 @@ y → Adelante
 s → Atrás
 a → Izquierda
 d → Derecha
-
-# Funcionamiento del Código
-Los motores se activan por 1 segundo (TIEMPO_MOVIMIENTO)
-Estados de control por tiempo para evitar sobrecargas
-Configuración de pines para control bidireccional de motores
 
 # Diagrama de Flujo
 Inicio → Esperar comando → Ejecutar movimiento → Temporizar 1s → Detener motores → Repetir
