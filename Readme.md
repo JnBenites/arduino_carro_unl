@@ -2,7 +2,8 @@
 Control de dos motores DC mediante comandos Bluetooth usando un módulo HC-05/06. El robot puede moverse adelante, atrás y girar en ambas direcciones durante 1 segundo por comando.
 
 # Diagrama de Conexiones
-Puente H 
+
+### Motores
 ```
 Motor Izquierdo:
 - Terminal 1 → IN1 (Pin 9)
@@ -12,15 +13,14 @@ Motor Derecho:
 - Terminal 1 → IN3 (Pin 7)
 - Terminal 2 → IN4 (Pin 6)
 ```
-
+### Módulo Bluetooth:
 ```
-Módulo Bluetooth:
 - VCC → 5V Arduino
 - GND → GND Arduino
 - TX → RX Arduino (Pin 0)
 - RX → TX Arduino (Pin 1)
 ```
-
+### Puente H
 ```
 Controlador L298N:
 - +12V → Batería 9V+
