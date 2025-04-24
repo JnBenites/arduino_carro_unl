@@ -24,19 +24,21 @@ IN4 → Pin 6
 
 <a href="https://github.com/JnBenites/arduino_carro_unl/blob/main/componentes/Bluetooth/Readme.md" target="_blank">Imagenes de referencia</a> 
 
-### Bateria Puente H
-```
-Controlador L298N:
-- +12V → Batería 9V+
-- GND → Batería 9V- y GND Arduino
-```
 
-## Conectar motores al L298N:
+#### Conectar motores al L298N:
 ```
 Motor izquierdo a OUT1 y OUT2
 Motor derecho a OUT3 y OUT4
 ```
 <a href="https://github.com/JnBenites/arduino_carro_unl/blob/main/componentes/motores/Readme.md" target="_blank">Imagenes de referencia</a> 
+
+### Arduino - interlocutor - Pilas
+```
+- 5V → Pila 6V+
+- GND → Pilas 6V-
+```
+<a href="https://github.com/JnBenites/arduino_carro_unl/blob/main/componentes/pilas/Readme.md" target="_blank">Imagenes de referencia</a> 
+
 
 ## Comandos de movimientos (deben ser definidos por los creadores del apk)
 ```
