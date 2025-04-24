@@ -3,16 +3,17 @@ Control de dos motores DC mediante comandos Bluetooth usando un módulo HC-05/06
 
 # Diagrama de Conexiones
 
-### Motores
-```
-Motor Izquierdo:
-- Terminal 1 → IN1 (Pin 9)
-- Terminal 2 → IN2 (Pin 8)
+### Puente H y Arduino
 
-Motor Derecho:
-- Terminal 1 → IN3 (Pin 7)
-- Terminal 2 → IN4 (Pin 6)
 ```
+IN1 → Pin 9
+IN2 → Pin 8
+IN3 → Pin 7
+IN4 → Pin 6
+```
+
+<a href="https://github.com/JnBenites/arduino_carro_unl/blob/main/componentes/PuenteHArduino/Readme.md" target="_blank">Imagenes de referencia</a> 
+
 ### Módulo Bluetooth:
 ```
 - VCC → 5V Arduino
@@ -21,31 +22,22 @@ Motor Derecho:
 - RX → TX Arduino (Pin 1)
 ```
 
-<a href="https://github.com/JnBenites/arduino_carro_unl" target="_blank">Imagenes de referencia para armado</a>
+<a href="https://github.com/JnBenites/arduino_carro_unl/blob/main/componentes/Bluetooth/Readme.md" target="_blank">Imagenes de referencia</a> 
 
-### Puente H
+### Bateria Puente H
 ```
 Controlador L298N:
 - +12V → Batería 9V+
 - GND → Batería 9V- y GND Arduino
-- OUT1-OUT2 → Motor Izquierdo
-- OUT3-OUT4 → Motor Derecho
 ```
 
-## Conexiones Eléctricas
+## Conectar motores al L298N:
 ```
-Conectar motores al L298N:
 Motor izquierdo a OUT1 y OUT2
 Motor derecho a OUT3 y OUT4
 ```
+<a href="https://github.com/JnBenites/arduino_carro_unl/blob/main/componentes/motores/Readme.md" target="_blank">Imagenes de referencia</a> 
 
-## Conectar L298N a Arduino:
-```
-IN1 → Pin 9
-IN2 → Pin 8
-IN3 → Pin 7
-IN4 → Pin 6
-```
 ## Comandos de movimientos (deben ser definidos por los creadores del apk)
 ```
 y → Adelante
