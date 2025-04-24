@@ -42,7 +42,7 @@ void loop() {
 // Inicia el movimiento según el comando recibido
 void iniciarMovimiento(char comando) {
   switch (comando) {
-    case 'y':  // Adelante
+    case 'w':  // Adelante
       digitalWrite(IN1, HIGH);
       digitalWrite(IN2, LOW);
       digitalWrite(IN3, HIGH);
