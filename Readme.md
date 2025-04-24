@@ -20,10 +20,7 @@ Motor Derecho:
 - TX → RX Arduino (Pin 0)
 - RX → TX Arduino (Pin 1)
 ```
-<img src="img/bluetooth/0.jpeg" alt="Girl in a jacket" width="600" height="auto">
-<img src="img/bluetooth/1.jpeg" alt="Girl in a jacket" width="600" height="auto">
-<img src="img/bluetooth/2.jpeg" alt="Girl in a jacket" width="600" height="auto">
-<img src="img/bluetooth/3.jpeg" alt="Girl in a jacket" width="600" height="auto">
+
 
 ### Puente H
 ```
