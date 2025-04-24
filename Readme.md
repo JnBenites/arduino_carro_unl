@@ -21,6 +21,7 @@ Motor Derecho:
 - RX → TX Arduino (Pin 1)
 ```
 
+<a href="https://github.com/JnBenites/arduino_carro_unl" target="_blank">Imagenes de referencia para armado</a>
 
 ### Puente H
 ```
