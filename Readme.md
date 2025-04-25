@@ -30,14 +30,14 @@ IN4 → Pin 6
 Motor izquierdo a OUT1 y OUT2
 Motor derecho a OUT3 y OUT4
 ```
-<a href="https://github.com/JnBenites/arduino_carro_unl/blob/main/componentes/motores/Readme.md" target="_blank">Imagenes de referencia</a> 
+<a href="https://github.com/JnBenites/arduino_carro_unl/tree/main/componentes/Motores" target="_blank">Imagenes de referencia</a> 
 
 ### Arduino - interlocutor - Pilas
 ```
 - 5V → Pila 6V+
 - GND → Pilas 6V-
 ```
-<a href="https://github.com/JnBenites/arduino_carro_unl/blob/main/componentes/pilas/Readme.md" target="_blank">Imagenes de referencia</a> 
+<a href="https://github.com/JnBenites/arduino_carro_unl/tree/main/componentes/Pilas" target="_blank">Imagenes de referencia</a> 
 
 
 ## Comandos de movimientos (deben ser definidos por los creadores del apk)
@@ -48,7 +48,10 @@ a → Izquierda
 d → Derecha
 ```
 
-# Diagrama de Flujo
+## Diagrama de Flujo
 ```
 Inicio → Esperar comando → Ejecutar movimiento → Temporizar 1s → Detener motores → Repetir
 ```
+
+## GND
+### Se debe unir el GND del puente H con un GND de la placa Arduino caso contrario, no girarán los motores.
