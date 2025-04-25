@@ -54,4 +54,4 @@ Inicio → Esperar comando → Ejecutar movimiento → Temporizar 1s → Detener
 ```
 
 ## GND
-### Se debe unir el GND del puente H con un GND de la placa Arduino caso contrario, no girarán los motores.
+#### Se debe unir el GND del puente H con un GND de la placa Arduino caso contrario, no girarán los motores.
